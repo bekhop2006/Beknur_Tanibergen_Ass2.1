@@ -1,0 +1,25 @@
+This project implements some basic data structures like MyArrayList, MyLinkedList, MyStack, MyQueue, and MyMinHeap. These are custom implementations without using Java's built-in collections except for Iterator.
+
+MyArrayList: A dynamic array that grows when full. Supports adding, removing, and accessing elements by index.
+
+MyLinkedList: A doubly linked list for efficient insertion and deletion.
+
+MyStack: A stack (LIFO) based on MyArrayList.
+
+MyQueue: A queue (FIFO) using MyLinkedList.
+
+MyMinHeap: A min-heap that keeps the smallest element at the root, using MyArrayList.
+
+Operations like adding, removing, getting elements, and checking the size are implemented for each data structure.
+
+Time complexity for most operations:
+
+MyArrayList: O(1) for add, O(n) for remove.
+
+MyLinkedList: O(n) for add, remove, get.
+
+MyStack: O(1) for push, pop, and peek.
+
+MyQueue: O(n) for enqueue, O(1) for dequeue and peek.
+
+MyMinHeap: O(log n) for insert and extractMin, O(1) for peek.
