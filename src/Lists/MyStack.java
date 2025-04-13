@@ -3,7 +3,7 @@ package Lists;
 /**
  * A custom implementation of a stack (LIFO - Last In, First Out).
  * Uses MyArrayList as the underlying storage.
- *
+ * <p>
  * Time complexity:
  * - push: O(1) amortized
  * - pop: O(1)
@@ -15,7 +15,7 @@ package Lists;
 
 
 public class MyStack<T> {
-    private MyList<T> list;
+    private final MyList<T> list;
 
     public MyStack() {
         list = new MyArrayList<>();
